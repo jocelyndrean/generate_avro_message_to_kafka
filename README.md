@@ -30,3 +30,8 @@ SCHEMA_REGISTRY_URL = 'http://schema.registry.com:8081'
 TOPIC = 'test_event_record_avro'
 KAFKA_SERVER_URL = 'kafka.url.com:9092'
 ```
+
+Install requirements
+```bash
+$ pip install -r requirements.txt
+```
