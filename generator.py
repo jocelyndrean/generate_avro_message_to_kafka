@@ -14,7 +14,7 @@ MAGIC_BYTE = 0
 SCHEMA_REGISTRY_URL = 'http://schema.registry.com:8081'
 TOPIC = 'test_event_record_avro'
 KAFKA_SERVER_URL = 'kafka.url.com:9092'
-
+#END Configuration
 
 def find_latest_schema(topic):
     subject = topic + '-value'
