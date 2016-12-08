@@ -98,7 +98,7 @@ if __name__ == '__main__':
     print "Starting to generate Avro message to", TOPIC
     while True:
         try:
-            if(nb_rows > 0 && nb_rows%1000 == 0):
+            if(nb_rows > 0 and nb_rows%1000 == 0):
                 print "Rows generated =", nb_rows
             message = generate_record(fake)
             content = encode_record(schema_id, schema, message)
