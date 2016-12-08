@@ -1,4 +1,4 @@
-# generate_avro_message_to_kafka
+# Generate Avro Message To Kafka
 
 # Goals: 
 This script Python generate fake data as Avro format to Kafka. This script was developped for this tutorial : 
